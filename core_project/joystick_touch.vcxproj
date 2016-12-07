@@ -74,8 +74,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\utils;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Users\Nick\Documents\Arduino\joystick_touch;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Bounce;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Bounce\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\ycs1dxei.z3t\Micro Platforms\default\debuggers;C:\Users\Nick\Documents\Arduino\libraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\Nick\Documents\Arduino\joystick_touch\__vm\.joystick_touch.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\utils;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Users\Nick\Documents\GitHub\TeensyPiGamepad\core_project;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Bounce;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\Bounce\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\ycs1dxei.z3t\Micro Platforms\default\debuggers;C:\Users\Nick\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\hardware\include;C:\Program Files (x86)\Arduino\hardware\Arduino\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\Nick\Documents\GitHub\TeensyPiGamepad\core_project\__vm\.core_project.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PreprocessorDefinitions>__HARDWARE_MK20dx256__;__HARDWARE_MK20DX256__;__MK20DX256__;TEENSYDUINO=128;ARDUINO=10608;F_CPU=96000000;USB_HID;LAYOUT_US_ENGLISH;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
@@ -118,6 +118,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="__vm\.core_project.vsarduino.h" />
     <ClInclude Include="__vm\.joystick_touch.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

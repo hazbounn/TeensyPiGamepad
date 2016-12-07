@@ -1,32 +1,35 @@
 # TeensyPiGamepad
 
+Note: please view the raw Readme file for correct text formatting:
+https://raw.githubusercontent.com/hazbounn/TeensyPiGamepad/master/README.md
+
 Arduino code to use a Teensy 3.2 as a media controller for linux systems using 
 Retroarch and EmualtionStation. The Teensy behaves as a gamepad, mouse and keyboard. 
 This code provides basic gamepad funcionnality (for use with 3ds sliders as joysticks), 
 a resistive touch screen driver which converts the user's touch input to usb mouse input, 
 and volume control.
 
-PIN MAPPING
+PIN MAPPINGS
 
 Teensy pin 		Physical Component
-	0					y
-	1					b
-	2					a
-	3					x
-	4					l
-	5					r
-	6					start
-	7					select
-	8					dpad up
-	9					dpad right
-	10					dpad down 
-	11					dpad left
-	14 (analog 0)		touch x-
-	15 (analog 1)		touch y+
-	16 (analog 2)		touch x+
-	17 (analog 3)		touch y-
-	18 (analog 4)		slider Y
-	19 (analog 5)		slider X
+0			y
+1			b
+2			a
+3			x
+4			l
+5			r
+6			start
+7			select
+8			dpad up
+9			dpad right
+10			dpad down 
+11			dpad left
+14 (analog 0)		touch x-
+15 (analog 1)		touch y+
+16 (analog 2)		touch x+
+17 (analog 3)		touch y-
+18 (analog 4)		slider Y
+19 (analog 5)		slider X
 	
 
 FUNCTIONNALITY

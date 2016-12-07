@@ -12,18 +12,18 @@ and volume control.
 PIN MAPPINGS
 
 Teensy pin 		Physical Component
-0			y
-1			b
-2			a
-3			x
-4			l
-5			r
-6			start
-7			select
-8			dpad up
-9			dpad right
-10			dpad down 
-11			dpad left
+0		y
+1		b
+2		a
+3		x
+4		l
+5		r
+6		start
+7		select
+8		dpad up
+9		dpad right
+10		dpad down 
+11		dpad left
 14 (analog 0)		touch x-
 15 (analog 1)		touch y+
 16 (analog 2)		touch x+

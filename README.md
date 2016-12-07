@@ -11,7 +11,7 @@ and volume control.
 
 PIN MAPPINGS
 
-Teensy pin 		Physical Component
+Teensy pin 			Physical Component
 0		y
 1		b
 2		a
@@ -24,12 +24,12 @@ Teensy pin 		Physical Component
 9		dpad right
 10		dpad down 
 11		dpad left
-14 (analog 0)		touch x-
-15 (analog 1)		touch y+
-16 (analog 2)		touch x+
-17 (analog 3)		touch y-
-18 (analog 4)		slider Y
-19 (analog 5)		slider X
+14 (analog 0)			touch x-
+15 (analog 1)			touch y+
+16 (analog 2)			touch x+
+17 (analog 3)			touch y-
+18 (analog 4)			slider Y
+19 (analog 5)			slider X
 	
 
 FUNCTIONNALITY
